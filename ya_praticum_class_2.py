@@ -10,7 +10,7 @@ class Employee:
     # Сюда добавьте методы consume_vacation и get_vacation_details.
 
     def consume_vacation(self, wasted_days):
-        self.remaining_vacation_days = self.remaining_vacation_days - wasted_days
+        self.remaining_vacation_days -= wasted_days
 
     def get_vacation_details(self):
         return f'Остаток отпускных дней: {self.remaining_vacation_days}.'
